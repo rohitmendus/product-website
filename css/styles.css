@@ -1,0 +1,423 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Nunito', sans-serif;
+	font-size: 1.5em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Roboto', sans-serif;
+}
+
+.navbar-brand {
+	font-size: 40px;
+	margin: 10px;
+	font-weight: bold;
+}
+
+.navbar-nav {
+	margin: 0px 20px;
+	font-size: 24px;
+}
+
+.navbar-toggler {
+	margin-right: 20px;	
+}
+
+.nav-logo {
+	margin-left: 20px;
+	width: 70px;
+	height: 70px;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+	color: white;
+	margin-left: 20px;
+	padding: 5px 10px;
+	display: inline-block;
+	font-size: 1.1em;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover {
+	background: rgba(255, 255, 255, 0.1);
+	transition: background .2s ease;
+}
+
+.dropdown-menu {
+	margin-top: 0;
+	background-color: #212529;
+}
+
+.dropdown-item {
+	color: white;
+	font-size: 1em;
+}
+
+.dropdown-item:hover{
+	background-color: rgba(255, 255, 255, 0.1);
+	color: white;
+	transition: background-color 0.2s ease-in;
+}
+
+.jumbotron {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-color: rgba(0, 0, 0, 0.2);
+	background-blend-mode: multiply;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.main-sentence {
+	color: white;
+	font-size: 7vw;
+	font-weight: bold;
+}
+
+.jumbotron-content{
+	margin: 0px 50px;
+}
+
+.rocket {
+	width: 300px;
+}
+
+.main-btn {
+	font-size: 1em;
+	margin: 10px;
+	font-weight: bold;
+	padding: 20px;
+}
+
+.version {
+	font-size: 0.7em;
+	color: white;
+	margin: 0px 10px; 
+}
+
+i {
+	margin: 10px;
+}
+
+#product-info {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	text-align: justify;
+	font-size: 1.3em;
+}
+
+.product-img {
+	margin-left: 30px;
+}
+
+.sub-header {
+	font-size: 2em;
+	margin-bottom: 60px;
+	color: #0c0f38;
+	font-weight: bold;
+}
+
+.benefits-container {
+	color: #0c0f38;
+	margin-top: 90px;
+	padding: 60px 0;
+	font-family: Poppins;
+}
+
+.benefits-col:hover{
+	transform: scale(1.1);
+    transition: ease-in all 0.5s;
+    cursor: pointer;
+}
+
+.benefits-col {
+	text-align: center;
+    background-color: transparent;
+    border-radius: 20px;
+    padding: 40px 20px 20px 20px;
+    transition: ease-in all 0.5s;
+    margin-bottom: 30px;
+    box-shadow: #ddd 0px 0px 10px;
+    height: auto;
+}
+
+.benefits-col img{
+    display: inline-block;
+    padding-top: 19px;
+}
+
+.benefits-col h3 {
+	padding: 20px 0px 20px 0px;
+    font-size: 24px;
+    display: block;
+    font-weight: 500;
+}
+
+.benefits-col p {
+	font-size: 16px;
+    line-height: 24px;
+    color: #090808;
+}
+
+#team {
+	background-color: #0c0f38;
+	color: white;
+	padding: 50px 0;
+	text-align: center;
+}
+
+.title-team h2{
+	font-size: 2em;
+}
+
+.title-team {
+	font-size: 1.25em;
+	margin-bottom: 50px;
+}
+
+.team-member {
+	margin: 0 50px;
+}
+
+.team-member img{
+	width: 280px;
+	height: 280px;
+	box-shadow: 0px 1px 0px 1px #fff;
+	border-radius: 50%;
+	margin-bottom: 30px;
+}
+
+.team-member h3 {
+	font-size: 1.8em;
+}
+
+.fab:hover{
+	cursor: pointer;
+	transform: scale(1.1);
+	transition: ease-in all 0.5s;
+}
+
+.team-member img:hover{
+	cursor: pointer;
+	transform: scale(1.05);
+	transition: ease-in all 0.5s;
+}
+
+
+/*For Large Devices*/
+@media (min-width: 1200px) {
+	.jumbotron {
+		background-image: url(../images/background.png);
+		height: 525px;
+	}
+
+	.benefits-col {
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+
+}
+
+/*For medium devices*/
+@media (min-width: 992px) and (max-width: 1199px) {
+	.jumbotron {
+		background-image: url(../images/background-992.png);
+		height: 500px;
+	}
+	.main-btn {
+		font-size: 0.8em;
+		margin: 7px;
+		font-weight: bold;
+		padding: 15px;
+	}
+
+	.version {
+		font-size: 0.6em;
+		color: white;
+		margin: 0px 7px; 
+	}
+	.rocket {
+		width: 250px;
+	}
+	.benefits-col {
+		margin-left: 10px;
+		margin-right: 10px;
+		max-width: 100%
+	}
+	.team-member img{
+		width: 230px;
+		height: 230px;
+	}
+
+	.team-member h3 {
+		font-size: 1.4em;
+	}
+	.team-member p {
+		font-size: 0.8em;
+	}
+}
+
+/*For small devices*/
+@media (min-width: 768px) and (max-width: 991px) {
+	.jumbotron {
+		background-image: url(../images/background-768.png);
+		height: 432px;
+	}
+	.main-btn {
+		font-size: 0.6em;
+		margin: 5px;
+		font-weight: bold;
+		padding: 10px;
+	}
+
+	.version {
+		font-size: 0.5em;
+		color: white;
+		margin: 0px 5px; 
+	}
+	.rocket {
+		width: 230px;
+	}
+	.product-img {
+		width: 300px;
+		margin: 0 auto 30px;
+		align-self: center;
+	}
+	.content {
+		font-size: 3.5vw;
+	}
+	.sub-header {
+		text-align: center;
+	}
+	.benefits-col {
+		margin: 5px;
+		font-size: 2.8vw;
+		padding: auto;
+	}
+	.team-member img{
+		width: 150px;
+		height: 150px;
+	}
+
+	.team-member h3 {
+		font-size: 1.2em;
+	}
+	.team-member p {
+		font-size: 0.75em;
+	}
+	.fab{
+		margin: 5px !important;
+	}
+	.team-member {
+		margin: 0 30px;
+	}
+	.title-team {
+		font-size: 1.1em;
+	}
+}
+
+/*For extra small devices.*/
+@media (max-width: 767px){
+	.logo-container {
+		display: none;
+	}
+
+	.navbar-brand {
+		font-size: 7vw;
+	}
+
+	.navbar-nav {
+		font-size: 3.5vw;
+	}
+
+	.jumbotron {
+		background-image: url(../images/background-768.png);
+		height: 700px;
+	}
+
+	.main-sentence {
+		font-size: 9.5vw;
+	}
+	.main-btn {
+		font-size: 4vw;
+		margin: 3px;
+		font-weight: bold;
+		padding: 5px;
+		align-self: space-between;
+	}
+	.version {
+		font-size: 2.5vw;
+		color: white;
+		margin: 0px 3px; 
+	}
+	.rocket {
+		width: 200px;
+		
+	}
+	.jumbotron-content {
+		text-align: center;
+	}
+	.product-img {
+		width: 280px;
+		margin: 0 auto 30px;
+		align-self: center;
+	}
+
+	#product-info {
+		text-align: center;
+	}
+	.sub-header {
+		font-size: 10vw;
+		margin-top: 10px;
+		margin-bottom: 20px;
+	}
+	.content {
+		font-size: 4vw;
+	}
+	.benefits-col {
+		margin: 20px;
+		font-size: 2.5vw;
+	}
+
+	.benefits h2{
+		font-size: 10vw;
+	}
+	.team-member img{
+		width: 300px;
+		height: 300px;
+	}
+
+	.team-member h3 {
+		font-size: 1.5em;
+	}
+	.team-member p {
+		font-size: 1em;
+	}
+	.team-member {
+		margin: 0 30px 110px 30px;
+	}
+	.title-team {
+		font-size: 1.25em;
+	}
+}
+
+@media (min-width: 576px) {
+	.dropdown:hover > ul.dropdown-menu {
+		display: block;
+    }
+}
+
+@media (max-width: 576px) {
+	.dropdown-item {
+		margin-left: 25px;
+	}
+}
