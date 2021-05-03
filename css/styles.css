@@ -293,14 +293,14 @@ i {
 		align-self: center;
 	}
 	.content {
-		font-size: 3.5vw;
+		font-size: 5vw;
 	}
 	.sub-header {
 		text-align: center;
 	}
 	.benefits-col {
 		margin: 5px;
-		font-size: 2.8vw;
+		font-size: 3vw;
 		padding: auto;
 	}
 	.team-member img{
@@ -380,9 +380,11 @@ i {
 		margin-top: 10px;
 		margin-bottom: 20px;
 	}
+
 	.content {
-		font-size: 4vw;
+		font-size: 5vw;
 	}
+
 	.benefits-col {
 		margin: 20px;
 		font-size: 2.5vw;
@@ -400,7 +402,7 @@ i {
 		font-size: 1.5em;
 	}
 	.team-member p {
-		font-size: 1em;
+		font-size: 1.1em;
 	}
 	.team-member {
 		margin: 0 30px 110px 30px;
@@ -419,5 +421,20 @@ i {
 @media (max-width: 576px) {
 	.dropdown-item {
 		margin-left: 25px;
+	}
+
+	.navbar-brand {
+		font-size: 10vw;
+	}
+
+	.nav-item {
+		font-size: 6vw;
+	}
+
+	.dropdown-item {
+		font-size: 4.8vw;
+	}
+	.title-team {
+		font-size: 1.1em;
 	}
 }
