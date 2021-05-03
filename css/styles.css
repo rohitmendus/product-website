@@ -271,6 +271,65 @@ i {
 	border-radius: 15px;
 }
 
+.footer-container {
+	background-color: #212529;
+	color: white;
+	margin: 0;
+}
+
+.other-footer {
+	padding: 30px;
+}
+
+
+.other-footer h3 {
+	font-size: 1.5em;
+	padding: 10px;
+}
+
+.brand-footer *{
+	display: inline-block;
+	font-size: 2em !important;
+	border: none !important;
+}
+
+.logo-footer {
+	height: 75px;
+	width: 75px;
+	display: inline-block;
+	margin: 10px;
+}
+
+.other-footer a {
+	text-decoration: none;
+	color: white;
+}
+
+.nav-footer a {
+	display: block;
+}
+
+.nav-footer a:hover{
+	color: #d7d7c1;
+	transition: ease-in all 0.1s;
+}
+
+.nav-footer *, .social-media h3, .social-media-links{
+	padding-left: 20px;
+}
+
+.social-media-links a:hover{
+	transform: scale(1.1);
+	transition: ease-in all 0.5s;
+}
+
+footer {
+	margin-top: 50px;
+	text-align: right;
+	background-color: #22282b;
+	padding: 5px;
+}
+
 
 /*For Large Devices*/
 @media (min-width: 1200px) {
@@ -326,6 +385,7 @@ i {
 	.form-text {
 		font-size: 0.55em;	
 	}
+	
 }
 
 /*For small devices*/
