@@ -268,10 +268,7 @@ i {
 
 .form-control {
 	font-family: 'Poppins';
-}
-
-input.form-control {
-	height: 52px;
+	border-radius: 15px;
 }
 
 
