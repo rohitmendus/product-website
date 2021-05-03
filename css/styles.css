@@ -160,6 +160,7 @@ i {
     font-size: 24px;
     display: block;
     font-weight: 500;
+    font-family: Poppins;
 }
 
 .benefits-col p {
@@ -210,6 +211,67 @@ i {
 	cursor: pointer;
 	transform: scale(1.05);
 	transition: ease-in all 0.5s;
+}
+
+#contact-us {
+	margin-top: 100px;
+	text-align: center;
+}
+
+#contact-us h2{
+	font-family: 'Poppins';
+	font-size: 2.5em;
+	color: #0c0f38;
+}
+
+.contact-form-container {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	border-radius: 10px;
+	background-color: #0c0f38;
+	color: white;
+	padding: 50px; 
+	display: flex;
+	justify-content: center;
+}
+
+.contact-form {
+	width: 450px;
+	text-align: left;
+	font-size: 1.1em;
+}
+
+.form-text {
+	color: #e1e1d0 !important;
+	font-size: 0.6em;
+}
+
+.form-group {
+	margin-bottom: 15px;
+}
+
+.submit-btn{
+	margin-top: 15px;
+	width: 200px;
+	font-size: 0.9em;
+	background-color: #d7d7c1;
+	color: #0c0f38; 
+	font-weight: 900;
+	padding: 8px;
+	border-radius: 20px;	
+}
+
+.button-container {
+	display: flex;
+	justify-content: center;
+}
+
+.form-control {
+	font-family: 'Poppins';
+}
+
+input.form-control {
+	height: 52px;
 }
 
 
@@ -264,6 +326,9 @@ i {
 	.team-member p {
 		font-size: 0.8em;
 	}
+	.form-text {
+		font-size: 0.55em;	
+	}
 }
 
 /*For small devices*/
@@ -293,7 +358,7 @@ i {
 		align-self: center;
 	}
 	.content {
-		font-size: 5vw;
+		font-size: 3.5vw;
 	}
 	.sub-header {
 		text-align: center;
@@ -322,6 +387,12 @@ i {
 	}
 	.title-team {
 		font-size: 1.1em;
+	}
+	.form-text {
+		font-size: 0.6em;	
+	}
+	.contact-form {
+		font-size: 0.9em;
 	}
 }
 
@@ -410,6 +481,13 @@ i {
 	.title-team {
 		font-size: 1.25em;
 	}
+	.form-text {
+		font-size: 2vw;	
+	}
+	.contact-form {
+		font-size: 3vw;
+	}
+
 }
 
 @media (min-width: 576px) {
@@ -436,5 +514,11 @@ i {
 	}
 	.title-team {
 		font-size: 1.1em;
+	}
+	.form-text {
+		font-size: 2.5vw;	
+	}
+	.contact-form {
+		font-size: 4vw;
 	}
 }

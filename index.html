@@ -33,7 +33,7 @@
 			   			<ul class="dropdown-menu dm1" aria-labelledby="dropdownMenuLink">
 	    					<li><a class="dropdown-item" href="#product-info">Our Product</a></li>
 	    					<li><a class="dropdown-item" href="#team">Our Team</a></li>
-	    					<li><a class="dropdown-item" href="#">Contact us</a></li>
+	    					<li><a class="dropdown-item" href="#contact-us">Contact us</a></li>
 	  					</ul>
 			   		</li>
 			   		<li class="nav-item dropdown">
@@ -163,6 +163,30 @@
 					</div>
 				</div>
 			</div>
+		</div>
+	</div>
+	<div id="contact-us">
+		<h2>Contact Us</h2>
+		<div class="container contact-form-container">
+			<form action="#" method="POST" class="contact-form">
+				<div class="form-group">
+					<label for="username">Name</label>
+					<input type="text" name="username" id="username" class="form-control" required>
+				</div>
+				<div class="form-group">
+					<label for="email">Email</label>
+					<input type="email" name="email" id="email" class="form-control" required>
+				</div>
+				<textarea cols="40" rows="5" placeholder="Leave a message" class="form-control form-group" required></textarea>
+				<div class="form-check form-group">
+					<input type="checkbox" name="email_letter" id="email_letter" class="form-check-input">
+					<label for="email_letter" class="form-check-label">Would you like to subscribe to our news letter?</label>
+				</div>
+				<small class="form-text text-muted">*We will never share your name or email with anyone else.</small>
+				<div class="button-container">
+					<input type="submit" name="submit_but" class="btn btn-primary submit-btn" value="Submit">
+				</div>
+			</form>
 		</div>
 	</div>
     <!--Bootstrap Bundle with Popper -->
