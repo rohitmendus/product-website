@@ -59,6 +59,10 @@ h1, h2, h3, h4, h5, h6 {
 	transition: background .2s ease;
 }
 
+.active {
+	background: rgba(255, 255, 255, 0.2);
+}
+
 .dropdown-menu {
 	margin-top: 0;
 	background-color: #212529;
@@ -435,6 +439,10 @@ footer h3 {
 	.footer-container {
 		font-size: 90%;
 	}
+
+	footer h3 {
+		font-size: 2.25vw;
+	}
 	
 }
 
@@ -632,7 +640,7 @@ footer h3 {
 		margin-top: 30px;
 	}
 	footer h3 {
-		font-size: 2.75vw;
+		font-size: 3vw;
 	}
 	
 
@@ -642,6 +650,7 @@ footer h3 {
 @media (max-width: 576px) {
 	.dropdown-item {
 		margin-left: 25px;
+		font-size: 4.25vw;
 	}
 
 	.navbar-brand {
@@ -652,9 +661,6 @@ footer h3 {
 		font-size: 4.75vw;
 	}
 
-	.dropdown-item {
-		font-size: 4vw;
-	}
 	#product-info {
 		padding: 0 25px;
 	}
@@ -672,8 +678,9 @@ footer h3 {
 		font-size: 4vw;
 	}
 	.other-footer h3 {
-		font-size: 6vw;
-		padding: 10px;
+		font-size: 6.5vw;
+		padding: 5px;
+		margin: 0;
 	}
 	.nav-footer a {
 		margin-left: 10px;
@@ -683,7 +690,7 @@ footer h3 {
 		font-size: 18px;
 	}
 	footer h3{
-		font-size: 3.5vw;
+		font-size: 4.75vw;
 	}
 }
 
